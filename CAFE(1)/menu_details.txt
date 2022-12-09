@@ -1,0 +1,11 @@
+10	choclate
+20	cup
+30	bottle
+40	coffee
+50	tea
+60	gum
+70	coke
+80	cake
+90	rice
+100	lunch
+150	chicken

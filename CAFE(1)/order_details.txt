@@ -1,0 +1,4 @@
+10	choclate	ALI	Fri Dec 09 16:06:33 2022
+10	choclate	Hassan	Fri Dec 09 22:11:28 2022
+150	chicken	Hassan	Fri Dec 09 22:11:42 2022
+
