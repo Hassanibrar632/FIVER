@@ -288,10 +288,11 @@ void check_sales(){
     logo();
 	string A,B,C,D,E,F,G,H;
 	int id = 1;
-	cout << "NO.\t\t\t\tTime\t\t\t\tPrice\t\t\t\tItem\t\t\t\tCusomer\n";
+	cout << "NO.\t\t\t\tTime\t\t\t\tPrice\t\t\t\tItem\t\t\t\t\tCusomer\n";
 	ifstream data("order_details.txt");
 	while(data >> A >> B >> C >> D >> E >> F >> G >> H){
-		cout << id++ << "\t\t\t\t" << D << " " << E << " " << F << " " << G << " " << H << "\t" << A << "\t\t\t\t" << B << "\t\t\t\t" << C << endl;
+		cout << id++ << "\t\t\t\t" << D << " " << E << " " << F << " " << G << " " << H << "\t" << A << "\t\t\t\t" << B << "\t\t\t\t\t";
+		cout << C << endl;
 	}
 	system("pause");
 	system("cls");
@@ -340,6 +341,7 @@ void order_function(){
 					string A,B,a;
 					cout << "Enter which item you would like to buy: ";
 					cin >> a;
+					int id = 1;
 					while (file >> A >> B)
 					{
 						if(a==B)
